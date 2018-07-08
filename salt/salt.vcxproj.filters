@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\jsonpp">
+      <UniqueIdentifier>{fc09c6bc-07d7-484e-ab0f-d923881afb02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\nanomsg">
+      <UniqueIdentifier>{82658a30-0d40-4f57-af40-474299062161}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\fmt">
+      <UniqueIdentifier>{aa0a1fe1-4e0b-42e8-afbd-8b8d8bd02c5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\rang">
+      <UniqueIdentifier>{54212ca0-a813-4de6-8e4a-168f53030b0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\soci">
+      <UniqueIdentifier>{796220d5-bc0a-47aa-9cdc-8fa9180bbcbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\spdlog">
+      <UniqueIdentifier>{373c3112-ac25-40f0-aa2a-c97fef9adbb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\bun">
+      <UniqueIdentifier>{b4ca804b-07f1-43ff-95a8-2f45400b76b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\sqlite">
+      <UniqueIdentifier>{62e46703-e0bf-4033-a06d-f4e0b9dea51a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\jsonpp\json.hpp">
+      <Filter>Header Files\jsonpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\nanomsg\bus.h">
+      <Filter>Header Files\nanomsg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\nanomsg\inproc.h">
+      <Filter>Header Files\nanomsg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\nanomsg\ipc.h">
+      <Filter>Header Files\nanomsg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\nanomsg\nn.h">
+      <Filter>Header Files\nanomsg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\nanomsg\pair.h">
+      <Filter>Header Files\nanomsg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\nanomsg\pipeline.h">
+      <Filter>Header Files\nanomsg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\nanomsg\pubsub.h">
+      <Filter>Header Files\nanomsg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\nanomsg\reqrep.h">
+      <Filter>Header Files\nanomsg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\nanomsg\survey.h">
+      <Filter>Header Files\nanomsg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\nanomsg\tcp.h">
+      <Filter>Header Files\nanomsg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\nanomsg\ws.h">
+      <Filter>Header Files\nanomsg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\fmt\colors.h">
+      <Filter>Header Files\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\fmt\core.h">
+      <Filter>Header Files\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\fmt\format.h">
+      <Filter>Header Files\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\fmt\format-inl.h">
+      <Filter>Header Files\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\fmt\ostream.h">
+      <Filter>Header Files\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\fmt\posix.h">
+      <Filter>Header Files\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\fmt\printf.h">
+      <Filter>Header Files\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\fmt\ranges.h">
+      <Filter>Header Files\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\fmt\time.h">
+      <Filter>Header Files\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\rang\rang.hpp">
+      <Filter>Header Files\rang</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\soci\backend-loader.h">
+      <Filter>Header Files\soci</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\soci\bind-values.h">
+      <Filter>Header Files\soci</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\soci\blob.h">
+      <Filter>Header Files\soci</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\soci\blob-exchange.h">
+      <Filter>Header Files\soci</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\soci\boost-fusion.h">
+      <Filter>Header Files\soci</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\soci\boost-gregorian-date.h">
+      <Filter>Header Files\soci</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\soci\boost-optional.h">
+      <Filter>Header Files\soci</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\soci\boost-tuple.h">
+      <Filter>Header Files\soci</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\soci\callbacks.h">
+      <Filter>Header Files\soci</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\soci\column-info.h">
+      <Filter>Header Files\soci</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\soci\connection-parameters.h">
+      <Filter>Header Files\soci</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\soci\connection-pool.h">
+      <Filter>Header Files\soci</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\soci\error.h">
+      <Filter>Header Files\soci</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\soci\exchange-traits.h">
+      <Filter>Header Files\soci</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\soci\into.h">
+      <Filter>Header Files\soci</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\soci\into-type.h">
+      <Filter>Header Files\soci</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\soci\noreturn.h">
+      <Filter>Header Files\soci</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\soci\once-temp-type.h">
+      <Filter>Header Files\soci</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\soci\prepare-temp-type.h">
+      <Filter>Header Files\soci</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\soci\procedure.h">
+      <Filter>Header Files\soci</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\soci\query_transformation.h">
+      <Filter>Header Files\soci</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\soci\ref-counted-prepare-info.h">
+      <Filter>Header Files\soci</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\soci\ref-counted-statement.h">
+      <Filter>Header Files\soci</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\soci\row.h">
+      <Filter>Header Files\soci</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\soci\row-exchange.h">
+      <Filter>Header Files\soci</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\soci\rowid.h">
+      <Filter>Header Files\soci</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\soci\rowid-exchange.h">
+      <Filter>Header Files\soci</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\soci\rowset.h">
+      <Filter>Header Files\soci</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\soci\session.h">
+      <Filter>Header Files\soci</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\soci\soci.h">
+      <Filter>Header Files\soci</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\soci\soci-backend.h">
+      <Filter>Header Files\soci</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\soci\soci-config.h">
+      <Filter>Header Files\soci</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\soci\soci-platform.h">
+      <Filter>Header Files\soci</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\soci\soci-simple.h">
+      <Filter>Header Files\soci</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\soci\statement.h">
+      <Filter>Header Files\soci</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\soci\transaction.h">
+      <Filter>Header Files\soci</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\soci\type-conversion.h">
+      <Filter>Header Files\soci</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\soci\type-conversion-traits.h">
+      <Filter>Header Files\soci</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\soci\type-holder.h">
+      <Filter>Header Files\soci</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\soci\type-ptr.h">
+      <Filter>Header Files\soci</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\soci\type-wrappers.h">
+      <Filter>Header Files\soci</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\soci\unsigned-types.h">
+      <Filter>Header Files\soci</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\soci\use.h">
+      <Filter>Header Files\soci</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\soci\use-type.h">
+      <Filter>Header Files\soci</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\soci\values.h">
+      <Filter>Header Files\soci</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\soci\values-exchange.h">
+      <Filter>Header Files\soci</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\soci\version.h">
+      <Filter>Header Files\soci</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\spdlog\async_logger.h">
+      <Filter>Header Files\spdlog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\spdlog\common.h">
+      <Filter>Header Files\spdlog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\spdlog\formatter.h">
+      <Filter>Header Files\spdlog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\spdlog\logger.h">
+      <Filter>Header Files\spdlog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\spdlog\spdlog.h">
+      <Filter>Header Files\spdlog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\spdlog\tweakme.h">
+      <Filter>Header Files\spdlog</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\blib\bun\bun.hpp">
+      <Filter>Header Files\bun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\blib\bun\CppTypeToSQLString.hpp">
+      <Filter>Header Files\bun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\blib\bun\DbBackend.hpp">
+      <Filter>Header Files\bun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\blib\bun\DbLogger.hpp">
+      <Filter>Header Files\bun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\blib\bun\SimpleOID.hpp">
+      <Filter>Header Files\bun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sqlite\sqlite3.h">
+      <Filter>Header Files\sqlite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\sqlite\sqlite3ext.h">
+      <Filter>Header Files\sqlite</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\.gitignore" />
+    <None Include="..\LICENSE" />
+    <None Include="..\README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\salt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\sqlite3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

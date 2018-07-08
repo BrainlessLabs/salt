@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{236E2166-E6C8-46F2-8DD6-3EF231DBC65F}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>salt</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)..\bin</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;FMT_HEADER_ONLY;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\include;$(BOOST_DIR)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)..\include</AdditionalLibraryDirectories>
+      <AdditionalDependencies>nanomsg.lib;libsoci_core_4_0.lib;libsoci_empty_4_0.lib;libsoci_sqlite3_4_0.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\blib\bun\bun.hpp" />
+    <ClInclude Include="..\include\blib\bun\CppTypeToSQLString.hpp" />
+    <ClInclude Include="..\include\blib\bun\DbBackend.hpp" />
+    <ClInclude Include="..\include\blib\bun\DbLogger.hpp" />
+    <ClInclude Include="..\include\blib\bun\SimpleOID.hpp" />
+    <ClInclude Include="..\include\fmt\colors.h" />
+    <ClInclude Include="..\include\fmt\core.h" />
+    <ClInclude Include="..\include\fmt\format-inl.h" />
+    <ClInclude Include="..\include\fmt\format.h" />
+    <ClInclude Include="..\include\fmt\ostream.h" />
+    <ClInclude Include="..\include\fmt\posix.h" />
+    <ClInclude Include="..\include\fmt\printf.h" />
+    <ClInclude Include="..\include\fmt\ranges.h" />
+    <ClInclude Include="..\include\fmt\time.h" />
+    <ClInclude Include="..\include\jsonpp\json.hpp" />
+    <ClInclude Include="..\include\nanomsg\bus.h" />
+    <ClInclude Include="..\include\nanomsg\inproc.h" />
+    <ClInclude Include="..\include\nanomsg\ipc.h" />
+    <ClInclude Include="..\include\nanomsg\nn.h" />
+    <ClInclude Include="..\include\nanomsg\pair.h" />
+    <ClInclude Include="..\include\nanomsg\pipeline.h" />
+    <ClInclude Include="..\include\nanomsg\pubsub.h" />
+    <ClInclude Include="..\include\nanomsg\reqrep.h" />
+    <ClInclude Include="..\include\nanomsg\survey.h" />
+    <ClInclude Include="..\include\nanomsg\tcp.h" />
+    <ClInclude Include="..\include\nanomsg\ws.h" />
+    <ClInclude Include="..\include\rang\rang.hpp" />
+    <ClInclude Include="..\include\soci\backend-loader.h" />
+    <ClInclude Include="..\include\soci\bind-values.h" />
+    <ClInclude Include="..\include\soci\blob-exchange.h" />
+    <ClInclude Include="..\include\soci\blob.h" />
+    <ClInclude Include="..\include\soci\boost-fusion.h" />
+    <ClInclude Include="..\include\soci\boost-gregorian-date.h" />
+    <ClInclude Include="..\include\soci\boost-optional.h" />
+    <ClInclude Include="..\include\soci\boost-tuple.h" />
+    <ClInclude Include="..\include\soci\callbacks.h" />
+    <ClInclude Include="..\include\soci\column-info.h" />
+    <ClInclude Include="..\include\soci\connection-parameters.h" />
+    <ClInclude Include="..\include\soci\connection-pool.h" />
+    <ClInclude Include="..\include\soci\error.h" />
+    <ClInclude Include="..\include\soci\exchange-traits.h" />
+    <ClInclude Include="..\include\soci\into-type.h" />
+    <ClInclude Include="..\include\soci\into.h" />
+    <ClInclude Include="..\include\soci\noreturn.h" />
+    <ClInclude Include="..\include\soci\once-temp-type.h" />
+    <ClInclude Include="..\include\soci\prepare-temp-type.h" />
+    <ClInclude Include="..\include\soci\procedure.h" />
+    <ClInclude Include="..\include\soci\query_transformation.h" />
+    <ClInclude Include="..\include\soci\ref-counted-prepare-info.h" />
+    <ClInclude Include="..\include\soci\ref-counted-statement.h" />
+    <ClInclude Include="..\include\soci\row-exchange.h" />
+    <ClInclude Include="..\include\soci\row.h" />
+    <ClInclude Include="..\include\soci\rowid-exchange.h" />
+    <ClInclude Include="..\include\soci\rowid.h" />
+    <ClInclude Include="..\include\soci\rowset.h" />
+    <ClInclude Include="..\include\soci\session.h" />
+    <ClInclude Include="..\include\soci\soci-backend.h" />
+    <ClInclude Include="..\include\soci\soci-config.h" />
+    <ClInclude Include="..\include\soci\soci-platform.h" />
+    <ClInclude Include="..\include\soci\soci-simple.h" />
+    <ClInclude Include="..\include\soci\soci.h" />
+    <ClInclude Include="..\include\soci\statement.h" />
+    <ClInclude Include="..\include\soci\transaction.h" />
+    <ClInclude Include="..\include\soci\type-conversion-traits.h" />
+    <ClInclude Include="..\include\soci\type-conversion.h" />
+    <ClInclude Include="..\include\soci\type-holder.h" />
+    <ClInclude Include="..\include\soci\type-ptr.h" />
+    <ClInclude Include="..\include\soci\type-wrappers.h" />
+    <ClInclude Include="..\include\soci\unsigned-types.h" />
+    <ClInclude Include="..\include\soci\use-type.h" />
+    <ClInclude Include="..\include\soci\use.h" />
+    <ClInclude Include="..\include\soci\values-exchange.h" />
+    <ClInclude Include="..\include\soci\values.h" />
+    <ClInclude Include="..\include\soci\version.h" />
+    <ClInclude Include="..\include\spdlog\async_logger.h" />
+    <ClInclude Include="..\include\spdlog\common.h" />
+    <ClInclude Include="..\include\spdlog\formatter.h" />
+    <ClInclude Include="..\include\spdlog\logger.h" />
+    <ClInclude Include="..\include\spdlog\spdlog.h" />
+    <ClInclude Include="..\include\spdlog\tweakme.h" />
+    <ClInclude Include="..\include\sqlite\sqlite3.h" />
+    <ClInclude Include="..\include\sqlite\sqlite3ext.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\.gitignore" />
+    <None Include="..\LICENSE" />
+    <None Include="..\README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\salt.cpp" />
+    <ClCompile Include="..\src\sqlite3.c" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
